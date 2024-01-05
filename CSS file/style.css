@@ -1,0 +1,63 @@
+body {
+    background-image: url('https://egqusrjtrmt.exactdn.com/wp-content/uploads/2022/12/temperature-converter.webp?strip=all&lossy=1&ssl=1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.converter {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+@media only screen and (min-width: 1024px) {
+    .converter {
+        position: absolute;
+        top: 0px; /* Adjust the top position as needed */
+        right: 0px; /* Adjust the right position as needed */
+    }
+}
